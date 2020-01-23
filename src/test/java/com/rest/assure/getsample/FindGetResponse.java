@@ -49,6 +49,7 @@ public class FindGetResponse {
 			
 			
 			int responseCode = response.getStatusCode();
+			System.out.println("Changes");
 			
 			System.out.println("Validating Header Body : "+response.getHeaders());
 			System.out.println("Status code is : "   +responseCode);
